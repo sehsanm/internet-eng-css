@@ -1,0 +1,45 @@
+@media (min-width:600px) {
+  
+
+    .menu {
+      list-style: none ;
+      display: inline ; 
+  
+    }
+  
+    .menu li { 
+      display: inline-block ; 
+      background-color: #cccc00;
+      margin: 2px ; 
+      border: 1px ; 
+      border-style: solid ; 
+      width: 100px ; 
+      text-align: center ; 
+    }
+  
+    .menu li a { 
+      text-decoration: none ; 
+    }
+  
+    .menu li:hover {
+      background-color: #ccffff ; 
+    }
+  
+    #nav { 
+      position: absolute ; 
+    }
+  
+    #content{
+      position: absolute;  
+      top :50px ; 
+    }
+
+    
+    #myImg { 
+        float: left ; 
+    }
+
+    #secondPar {
+        clear: left ; 
+    }
+  }
